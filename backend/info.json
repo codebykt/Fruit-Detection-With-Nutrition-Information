@@ -1,0 +1,124 @@
+{
+  "classes": {
+    "0": {
+      "class_name": "annona",
+      "plant_info": {
+        "scientific_name": "Annona",
+        "common_names": ["Annona"],
+        "description": "Annona is a genus of flowering plants in the pawpaw/sugar apple family, Annonaceae. It includes several species of tropical fruit-bearing trees.",
+        "nutrition_info": {
+          "calories_per_100g": 75,
+          "protein_per_100g": 2.3,
+          "fat_per_100g": 0.2,
+          "carbohydrates_per_100g": 16.8,
+          "fiber_per_100g": 1.6
+        }
+      }
+    },
+    "1": {
+      "class_name": "apple",
+      "plant_info": {
+        "scientific_name": "Malus domestica",
+        "common_names": ["Apple"],
+        "description": "The apple is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple.",
+        "nutrition_info": {
+          "calories_per_100g": 52,
+          "protein_per_100g": 0.3,
+          "fat_per_100g": 0.2,
+          "carbohydrates_per_100g": 14,
+          "fiber_per_100g": 2.4
+        }
+      }
+    },
+    "2": {
+      "class_name": "banana",
+      "plant_info": {
+        "scientific_name": "Musa",
+        "common_names": ["Banana"],
+        "description": "The banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa.",
+        "nutrition_info": {
+          "calories_per_100g": 89,
+          "protein_per_100g": 1.1,
+          "fat_per_100g": 0.3,
+          "carbohydrates_per_100g": 22.8,
+          "fiber_per_100g": 2.6
+        }
+      }
+    },
+    "3": {
+      "class_name": "guava",
+      "plant_info": {
+        "scientific_name": "Psidium guajava",
+        "common_names": ["Guava"],
+        "description": "Guava is a tropical fruit cultivated in many tropical and subtropical regions.",
+        "nutrition_info": {
+          "calories_per_100g": 68,
+          "protein_per_100g": 2.6,
+          "fat_per_100g": 0.9,
+          "carbohydrates_per_100g": 14,
+          "fiber_per_100g": 5.4
+        }
+      }
+    },
+    "4": {
+      "class_name": "orange",
+      "plant_info": {
+        "scientific_name": "Citrus × sinensis",
+        "common_names": ["Orange"],
+        "description": "The orange is the fruit of various citrus species in the family Rutaceae.",
+        "nutrition_info": {
+          "calories_per_100g": 47,
+          "protein_per_100g": 0.9,
+          "fat_per_100g": 0.2,
+          "carbohydrates_per_100g": 12,
+          "fiber_per_100g": 2.4
+        }
+      }
+    },
+    "5": {
+      "class_name": "pear",
+      "plant_info": {
+        "scientific_name": "Pyrus",
+        "common_names": ["Pear"],
+        "description": "The pear is a sweet fruit that is said to be related to the apple.",
+        "nutrition_info": {
+          "calories_per_100g": 57,
+          "protein_per_100g": 0.4,
+          "fat_per_100g": 0.1,
+          "carbohydrates_per_100g": 15,
+          "fiber_per_100g": 3.1
+        }
+      }
+    },
+    "6": {
+      "class_name": "pineapple",
+      "plant_info": {
+        "scientific_name": "Ananas comosus",
+        "common_names": ["Pineapple"],
+        "description": "The pineapple is a tropical plant with an edible fruit, also called a pineapple.",
+        "nutrition_info": {
+          "calories_per_100g": 50,
+          "protein_per_100g": 0.5,
+          "fat_per_100g": 0.1,
+          "carbohydrates_per_100g": 13.1,
+          "fiber_per_100g": 1.4
+        }
+      }
+    },
+    "7": {
+      "class_name": "pitaya",
+      "plant_info": {
+        "scientific_name": "Hylocereus",
+        "common_names": ["Pitaya", "Dragon fruit"],
+        "description": "The pitaya, commonly referred to as dragon fruit, is a tropical fruit from the genus Hylocereus.",
+        "nutrition_info": {
+          "calories_per_100g": 60,
+          "protein_per_100g": 1.2,
+          "fat_per_100g": 0.4,
+          "carbohydrates_per_100g": 13,
+          "fiber_per_100g": 3
+        }
+      }
+    }
+  }
+}

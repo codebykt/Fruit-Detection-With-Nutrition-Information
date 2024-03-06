@@ -1,0 +1,94 @@
+{
+  "classes": {
+    "0": {
+      "class_name": "apple",
+      "plant_info": {
+        "scientific_name": "Malus domestica",
+        "common_names": ["Apple"],
+        "description": "The apple is a fruit produced by an apple tree (Malus domestica). It is known for its sweet taste and crisp texture. Apples are rich in fiber, vitamin C, and various antioxidants.",
+        "nutrition_info": {
+          "calories_per_100g": 52,
+          "protein_per_100g": 0.3,
+          "fat_per_100g": 0.2,
+          "carbohydrates_per_100g": 14,
+          "fiber_per_100g": 2.4
+        }
+      }
+    },
+    "1": {
+      "class_name": "kiwi",
+      "plant_info": {
+        "scientific_name": "Actinidia deliciosa",
+        "common_names": ["Kiwi", "Chinese gooseberry"],
+        "description": "The kiwifruit, or simply kiwi, is the edible berry of several species of woody vines in the genus Actinidia. It is known for its fuzzy brown exterior and vibrant green flesh with tiny black seeds.",
+        "nutrition_info": {
+          "calories_per_100g": 61,
+          "protein_per_100g": 1.1,
+          "fat_per_100g": 0.5,
+          "carbohydrates_per_100g": 14.7,
+          "fiber_per_100g": 3
+        }
+      }
+    },
+    "2": {
+      "class_name": "lemon",
+      "plant_info": {
+        "scientific_name": "Citrus limon",
+        "common_names": ["Lemon"],
+        "description": "The lemon is a species of small evergreen tree in the flowering plant family Rutaceae. It is native to South Asia, primarily Northeast India.",
+        "nutrition_info": {
+          "calories_per_100g": 29,
+          "protein_per_100g": 1.1,
+          "fat_per_100g": 0.3,
+          "carbohydrates_per_100g": 9.3,
+          "fiber_per_100g": 2.8
+        }
+      }
+    },
+    "3": {
+      "class_name": "orange",
+      "plant_info": {
+        "scientific_name": "Citrus × sinensis",
+        "common_names": ["Orange"],
+        "description": "The orange is the fruit of various citrus species in the family Rutaceae. It is known for its bright color, sweet flavor, and juicy texture.",
+        "nutrition_info": {
+          "calories_per_100g": 47,
+          "protein_per_100g": 0.9,
+          "fat_per_100g": 0.2,
+          "carbohydrates_per_100g": 12,
+          "fiber_per_100g": 2.4
+        }
+      }
+    },
+    "4": {
+      "class_name": "pomegranate",
+      "plant_info": {
+        "scientific_name": "Punica granatum",
+        "common_names": ["Pomegranate"],
+        "description": "The pomegranate is a fruit-bearing deciduous shrub or small tree in the family Lythraceae. It is known for its juicy arils, which are small seeds surrounded by a fleshy covering.",
+        "nutrition_info": {
+          "calories_per_100g": 83,
+          "protein_per_100g": 1.7,
+          "fat_per_100g": 1.2,
+          "carbohydrates_per_100g": 18.7,
+          "fiber_per_100g": 4
+        }
+      }
+    },
+    "5": {
+      "class_name": "tomato",
+      "plant_info": {
+        "scientific_name": "Solanum lycopersicum",
+        "common_names": ["Tomato"],
+        "description": "The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as a tomato plant. It is used in a wide variety of culinary dishes.",
+        "nutrition_info": {
+          "calories_per_100g": 18,
+          "protein_per_100g": 0.9,
+          "fat_per_100g": 0.2,
+          "carbohydrates_per_100g": 3.9,
+          "fiber_per_100g": 1.2
+        }
+      }
+    }
+  }
+}
