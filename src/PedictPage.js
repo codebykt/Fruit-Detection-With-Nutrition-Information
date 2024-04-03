@@ -7,6 +7,11 @@ const PredictPage = () => {
     const [detectedObjects, setDetectedObjects] = useState([]);
     const [imageSrc, setImageSrc] = useState(null);
     const [detectedIds, setDetectedIds] = useState([]);
+    const [totalCalories, setTotalCalories] = useState(0);
+    const [totalProtein, setTotalProtein] = useState(0);
+    const [totalFat, setTotalFat] = useState(0);
+    const [totalCarbohydrates, setTotalCarbohydrates] = useState(0);
+    const [totalFiber, setTotalFiber] = useState(0);
 
     const handleFileChange = (event) => {
         setFile(event.target.files[0]);
@@ -32,6 +37,34 @@ const PredictPage = () => {
             setDetectedObjects(data.detected_objects);
             setImageSrc(`data:image/jpeg;base64,${data.image}`);
             setDetectedIds(data.detected_ids);
+
+            let totalCalories = 0;
+            let totalProtein = 0;
+            let totalFat = 0;
+            let totalCarbohydrates = 0;
+            let totalFiber = 0;
+
+            // Loop through detected objects and sum up nutrition information
+            console.log(detectedIds);
+            data.detected_objects.forEach((object, index) => {
+                const objectId = detectedIds[index];
+                console.log(object_info.classes[objectId]);
+                if (object_info.classes[objectId]) {
+                    const nutritionInfo = object_info.classes[objectId].plant_info.nutrition_info;
+                    console.log(nutritionInfo);
+                    totalCalories += nutritionInfo.calories_per_100g;
+                    totalProtein += nutritionInfo.protein_per_100g;
+                    totalFat += nutritionInfo.fat_per_100g;
+                    totalCarbohydrates += nutritionInfo.carbohydrates_per_100g;
+                    totalFiber += nutritionInfo.fiber_per_100g;
+                }
+            });
+
+            setTotalCalories(totalCalories);
+            setTotalProtein(totalProtein);
+            setTotalFat(totalFat);
+            setTotalCarbohydrates(totalCarbohydrates);
+            setTotalFiber(totalFiber);
         })
         .catch(error => {
             console.error('Error:', error);
@@ -92,6 +125,22 @@ const PredictPage = () => {
                     </div>
                 </div>
             ))}
+
+            {/* Display total nutrition */}
+            <div className="row justify-content-center mt-5">
+                <div className="col-md-6">
+                    <div className="card">
+                        <div className="card-body">
+                            <h5 className="card-title">Total Nutrition</h5>
+                            <p className="card-text"><strong>Total Calories:</strong> {totalCalories}</p>
+                            <p className="card-text"><strong>Total Protein:</strong> {totalProtein}</p>
+                            <p className="card-text"><strong>Total Fat:</strong> {totalFat}</p>
+                            <p className="card-text"><strong>Total Carbohydrates:</strong> {totalCarbohydrates}</p>
+                            <p className="card-text"><strong>Total Fiber:</strong> {totalFiber}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
